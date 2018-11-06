@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-nav">
+            <div class="top-nav__nav-links">
+                <a href="">How it works?</a>
+                <a href="">About us</a>
+                <a href="">News</a>
+            </div>
+            <div class="top-nav__nav-func">
+                <div class="lang-bar lang-bar--top-nav">
+                    <div class="lang-bar__lang-selected">Eng </div>
+                    <ul id="lang-select" class="lang-bar__lang-dropdown">
+                        <li>Eng</li>
+                        <li>Ru</li>
+                        <li>Es</li>
+                    </ul>
+                </div>
+                <a href="" class="top-nav__help-link">Help</a>
+                <a href="" class="top-nav__cart">
+                    <img src="img/ico-cart.jpg" alt="">
+                    <span class="top-nav__cart-count">0</span>
+                </a>
+                <a href="" class="top-nav__login">Log in</a>
+                <a href="" class="top-nav__signup">Sign up</a>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="wrap">
+                <a href="/" class="main-nav__logo"><img src="img/logo.png" alt=""></a>
+                <ul class="main-nav__menu">
+                    <li><h4 onClick="toggleSub('sub1')">Categories</h4></li>
+                    <li><h4>Smart home</h4></li>
+                    <li><h4>Smart home systems</h4></li>
+                    <li><h4>collections</h4></li>
+                </ul>
+                <div class="main-nav__sub-menu" id="sub1">
+                    <div class="wrap">
+                        <a href="">Smart Home Automation Hubs</a>
+                        <a href="">Smart Door Locks</a>
+                        <a href="">Window and Door Sensors</a>
+                        <a href="">Smart Air Conditioners</a>
+                        <a href="">Home Security Cameras</a>
+                        <a href="">Smart Light Bulbs</a>
+                        <a href="">Sleep Gadgets </a>
+                        <a href="">Smart Smoke Alarms </a>
+                        <a href="">Smart Alarm Clocks</a>
+                        <a href="">Smart Doorbells</a>
+                        <a href="">Smart Home Weather Stations </a>
+                        <a href="">Smart Sockets </a>
+                        <a href="">Smart Safes </a>
+                        <a href="">Smart Kitchen Gadgets </a>
+                        <a href="">Smart Mirrors </a>
+                    </div>
+                </div>
+                <div class="main-nav__search">
+                    <input type="text" placeholder="I'm searching for...">
+                    <button></button>
+                </div>
+                <a href="" class="top-nav__cart sm">
+                    <img src="img/cart.svg" alt="">
+                    <span class="top-nav__cart-count">0</span>
+                </a>
+            </div>
+
+        </div>
+    </header>
+    <section class="slider" data-ride="carousel" id="carouselExampleSlidesOnly">
+        <div class="slider__control">
+            <div class="slider__nav-right" onClick="slideRight('slider1')"></div>
+            <div class="slider__nav-left"></div>
+        </div>
+        <div class="slider__slides carousel-inner" style="width: 3840px">  
+            <div class="slider__slide carousel-item active" id="slider1">
+                <img src="img/slider-img1.jpg" alt="">
+                <div class="slider__description">
+                    <div class="slider__text">The 1 roboming fellow <br>
+                    is a personal robot friend
+                    <a href="" class="discover-button discover-button--orange">Discover more</a>
+                    </div> 
+                </div>
+            </div>
+            <div class="slider__slide carousel-item">
+                <img src="img/slider-img1.jpg" alt="">
+                <div class="slider__description">
+                    <div class="slider__text">The 2 roboming fellow <br>
+                    is a personal robot friend
+                    <a href="" class="discover-button discover-button--orange">Discover more</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="top-lists">
+        <div class="wrap">
+            <div class="top-lists__titles-tab">
+                <h4 id="cat1" class="top-lists__titles-tab--active">Trending now</h4>
+                <h4 id="cat2">Best Sellers</h4>
+                <h4 id="cat3">Local products</h4>
+                <h4 id="cat4">Futured products</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="top-lists__products" id="product-cat1">
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>         
+        </div>
+        <div class="button-block lg">
+            <button class="load-more">Load more</button>
+        </div>
+    </section>
+    <section class="futures-block">
+        <h2>Features</h2>
+        <div class="wrap">
+            <div>
+                <img src="img/ico-features1.png" alt="">
+                <h3>Enjoy Smart</h3>
+                <p>Smart platform with smart product for smart people</p>
+            </div>
+            <div>
+                <img src="img/ico-features2.png" alt="">
+                <h3>Enjoy Smart</h3>
+                <p>Smart platform with smart product for smart people</p>
+            </div>
+            <div>
+                <img src="img/ico-features3.png" alt="">
+                <h3>Enjoy Smart</h3>
+                <p>Smart platform with smart product for smart people</p>
+            </div>
+        </div>
+    </section>
+    <section class="discovers-block">
+        <h2>New Descovers</h2>
+        <div class="wrap">
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="category-block category-block--bg">
+            <div class="wrap">
+                <div class="category-name-block">
+                    <h1>Robots</h1>
+                    <p>They're taking over (all the tasks you don't want to do!)
+                            They're taking over (all the tasks you don't want to do!)
+                            They're taking over (all the tasks you don't want to do!) 
+                            They're taking over (all the tasks you don't want to do!)</p>
+                    <a href="" class="discover-button discover-button--grey">Discover more</a>
+                </div>
+                <div class="product">
+                    <img src="img/prod-img.png" alt="">
+                    <div class="product__desc">
+                        <div class="product__func">
+                            <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                            <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                            <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                        </div>
+                        <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                        <div class="product__price">$299.00 <span>usd</span></div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/prod-img.png" alt="">
+                    <div class="product__desc">
+                        <div class="product__func">
+                            <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                            <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                            <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                        </div>
+                        <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                        <div class="product__price">$299.00 <span>usd</span></div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/prod-img.png" alt="">
+                    <div class="product__desc">
+                        <div class="product__func">
+                            <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                            <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                            <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                        </div>
+                        <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                        <div class="product__price">$299.00 <span>usd</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="block-slide-ctrl">
+                    <div class="block-slide-ctrl__left"><i class="fa fa-chevron-left"></i></div>
+                    <div class="block-slide-ctrl__right"><i class="fa fa-chevron-right"></i></div>
+                </div>
+            </div>
+    </section>
+    <section class="category-block">
+        <div class="wrap">
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/prod-img.png" alt="">
+                <div class="product__desc">
+                    <div class="product__func">
+                        <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                        <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                        <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                    </div>
+                    <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                    <div class="product__price">$299.00 <span>usd</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="button-block">
+            <button class="load-more">Load more</button>
+        </div>
+    </section>
+    <section class="collections">
+        <h2>Collections</h2>
+        <div class="wrap">
+            <div class="collection-item">
+                <img src="img/collection-img1.jpg" alt="">
+                <h5>Home</h5>
+                <a href="" class="discover-button discover-button--small">Discovery</a>
+            </div>
+            <div class="collection-item">
+                <img src="img/collection-img1.jpg" alt="">
+                <h5>Home</h5>
+                <a href="" class="discover-button discover-button--small">Discovery</a>
+            </div>
+            <div class="collection-item">
+                <img src="img/collection-img1.jpg" alt="">
+                <h5>Home</h5>
+                <a href="" class="discover-button discover-button--small">Discovery</a>
+            </div>
+            <div class="collection-item">
+                <img src="img/collection-img1.jpg" alt="">
+                <h5>Home</h5>
+                <a href="" class="discover-button discover-button--small">Discovery</a>
+            </div>
+            <div class="collection-item">
+                <img src="img/collection-img1.jpg" alt="">
+                <h5>Home</h5>
+                <a href="" class="discover-button discover-button--small">Discovery</a>
+            </div>
+        </div>
+        <div class="button-block">
+            <button class="load-more">Load more</button>
+        </div>
+    </section>
+    <div class="we-help">
+        <div class="wrap">
+            <h2>We Help Great Products Get in Front of the Right People</h2>
+            <div class="duo-split">
+                <a href="" class="discover-button discover-button--grey-red">Become a partner</a>
+                <ul>
+                    <li>- Boost Sales &amp; Exposure for you product</li>
+                    <li>- Instantly Increase Brand Awareness</li>
+                    <li>- Advertise in Front of Target Consumers</li>
+                    <li>- World Class 24/7 Customer Support</li>
+                    <li>- Advertise your Crowdfunding Project</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="seo-block">
+        <div class="wrap">
+            <h3>Home for Smart Products</h3>
+            <p>Find necessary hi-tech product easy and comfortable. Surf through the platform, сheck and buy the best smart products with a few clicks. We store best ideas for new services, smart  electronic devices, wearable gadgets, and other products. 4Prototypes focuses on home automation products, smart house systems, security devices, wireless bluetooth controller devices, and more.</p>
+            <h3>Smart People Love Smart Devices</h3>
+            <p>4Prototypes is not just home for the best smart devices and best smart products. 4Prototypes is also a hub for people who like cool smart devices. We nest together, and we grow together. Wanna buy a smart device, but have some doubts? Have a need for a brand new wifi system? Or maybe you’re looking for a new virtual assistant which blows Alexa and Siri out of the water? We’ve got the long list of awesome things, so you will find exactly what you need. There is always the best option of a smart device for you!</p>
+            <h3>Get an Instant Feedback on Your Smart Products from Community</h3>
+            <p>Build new connections and stay connected with a community of passionate users. Share your thoughts on a new technology, get quick feedback from the community. Decide on purchase depending on rankings and comments from real tech geeks. We believe that ratings from passionate experts in smart products and smart devices will bring valuable transparency into our service. No need to believe marketing tricks and buzzwords. Only truth. From those you can trust.</p>
+            <h3>Easy and Smart Navigation</h3>
+            <p>4Prototypes is made for effortless surfing. Find what you like, check similar products, pick the best possible solution. Easily share it with friends in social networks, leave comments and rate a smart product you like! Don’t hesitate to join 4Prototypes community and become a part of a brand new world of a game changing devices. Because we are tomorrow, and so are you. We operate in all countries and cities, from Paris to New York, Los Angeles, Chicago, Houston, San Jose, San Francisco, San Diego</p>
+        </div>
+    </section>
+    <footer>
+        <div class="wrap">
+            <div class="follow-us">
+                <h4>Follow us:</h4>
+                <a href="#"><img src="img/ico-insta.png" alt=""></a>
+                <a href="#"><img src="img/ico-facebook.png" alt=""></a>
+                <a href="#"><img src="img/ico-twitter.png" alt=""></a>
+                <a href="#"><img src="img/ico-linkedin.png" alt=""></a>
+                <a href="#"><img src="img/ico-youtube.png" alt=""></a>
+            </div>
+            <div class="footer-nav">
+                <a href="">About Us</a>
+                <a href="">Our Team</a>
+                <a href="">Our Features</a>
+                <a href="">Become a partner</a>
+                <a href="">Contact Us</a>
+                <a href="">FAQ</a>
+                <a href="">News</a>
+                <a href="">Terms of Use</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Cookie Policy</a>
+            </div>
+            <div>
+                <a href="" class="button button-green">Join Us</a>
+
+                <div class="lang-bar lang-bar--footer-nav" onclick="toggleLang()">
+                    <div class="lang-bar__lang-selected">Eng </div>
+                    <ul id="lang-select2" class="lang-bar__lang-dropdown lang-bar__lang-dropdown--hide">
+                        <li>Eng</li>
+                        <li>Ru</li>
+                        <li>Es</li>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <a href="">info@4prototypes.com</a>
+            </div>
+        </div>
+        <div class="wrap" id="navi-wrap">
+            <p>Copyright © 2018 4prototypes, Inc.</p>
+        </div>
+    </footer>
+    <div class="footer-mobile">
+        <ul class="footer-mobile__menu">
+            <li class="footer-mobile__menu--active"><a href=""><i class="fas fa-bars"></i><br>Catalog</a></li>
+            <li><a href=""><i class="fas fa-search"></i><br>Search</a></li>
+            <li><a href=""><img src="img/logo.png" alt=""><br>Main</a></li>
+            <li><a href=""><i class="far fa-user"></i><br>Profile</a></li>
+            <li><a href=""><i class="fas fa-ellipsis-h"></i><br>Other</a></li>
+        </ul>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('.slider__slides').carousel({
+            interval: 2000
+            })
+    </script>
+</body>
+
+</html>
