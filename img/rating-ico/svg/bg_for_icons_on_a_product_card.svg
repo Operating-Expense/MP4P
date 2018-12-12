@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76" height="31" viewBox="0 0 76 31">
+  <defs>
+    <polygon id="bg_for_icons_on_a_product_card-a" points="0 31 0 0 76 0 76 31"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="bg_for_icons_on_a_product_card-b" fill="#fff">
+      <use xlink:href="#bg_for_icons_on_a_product_card-a"/>
+    </mask>
+    <path fill="#FFF" d="M57.6699,11.9399 C52.3599,6.7099 48.4199,-0.0001 38.2999,-0.0001 L37.6999,-0.0001 C27.5799,-0.0001 23.6399,6.7099 18.3299,11.9399 C14.4699,16.7599 6.6099,17.8099 -0.0001,17.9999 L-0.0001,30.9999 L75.9999,30.9999 L75.9999,17.9999 C69.3899,17.8099 61.5299,16.7599 57.6699,11.9399" mask="url(#bg_for_icons_on_a_product_card-b)"/>
+  </g>
+</svg>

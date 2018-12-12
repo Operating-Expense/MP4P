@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap-fix.css">
+    <link rel="stylesheet" href="./css/category.css">
+</head>
+
+<body>
+    <header class="header--fixed" id="header">
+        <div class="top-nav">
+            <div class="top-nav__nav-links">
+                <a href="">How it works?</a>
+                <a href="">About us</a>
+                <a href="">News</a>
+            </div>
+            <div class="top-nav__logo"><a href="/"><img src="./img/logo.png" alt=""></a></div>
+            <div class="top-nav__nav-categories">
+                <ul class="cat__lvl1">
+                    <li onClick="subCatDropDown(this)"><span>Browse</span>
+                        <ul class="cat__lvl2 subcat">
+                            <li class="has-sub">Categories
+                                <ul class="cat__lvl3 subcat">
+                                    <li class="has-sub">Smart Home Automation Hubs
+                                        <ul class="cat__lvl4 subcat">
+                                            <li>Smart Home Automation Hubs</li>
+                                            <li>Smart Door Locks</li>
+                                            <li>Window and Door Sensors</li>
+                                            <li>Smart Air Conditioners</li>
+                                        </ul>
+                                    </li>
+                                    <li>Smart Door Locks</li>
+                                    <li>Window and Door Sensors</li>
+                                    <li>Smart Air Conditioners</li>
+                                    <li>Home Security Cameras</li>
+                                    <li>Smart Light Bulbs</li>
+                                    <li>Sleep Gadgets </li>
+                                </ul>
+                            </li>
+                            <li>Smart Home</li>
+                            <li>Smart Home Systems</li>
+                            <li>Collections</li>
+                        </ul>
+
+                    </li>
+                    <li><span>Other</span></li>
+                </ul>
+            </div>
+            <div class="top-nav__search">
+                <div class="main-nav__search">
+                    <input type="text" placeholder="I'm searching for...">
+                    <button></button>
+                </div>
+            </div>
+
+            <div class="top-nav__nav-func">
+                <div class="lang-bar lang-bar--top-nav">
+                    <div class="lang-bar__lang-selected" data-toggle="dropdown">Eng </div>
+                    <ul id="lang-select" class="lang-bar__lang-dropdown dropdown-menu">
+                        <li>Eng</li>
+                        <li>Ru</li>
+                        <li>Es</li>
+                    </ul>
+                </div>
+                <a href="" class="top-nav__help-link">Help</a>
+                <a href="" class="top-nav__cart">
+                    <img src="img/ico-cart.jpg" alt="" class="cart-white">
+                    <img src="img/ico-cart-dark.png" alt="" class="cart-dark">
+                    <span class="top-nav__cart-count">0</span>
+                </a>
+                <a href="" class="top-nav__login">Log in</a>
+                <a href="" class="top-nav__signup">Sign up</a>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="wrap">
+                <a href="/" class="main-nav__logo"><img src="img/logo.png" alt=""></a>
+                <ul class="main-nav__menu dropdown">
+                    <li id="category" data-toggle="dropdown">
+                        <h4>Categories</h4>
+                    </li>
+                    <div class="main-nav__sub-menu dropdown-menu" aria-labelledby="category">
+                        <div class="wrap">
+                            <a href="">Smart Home Automation Hubs</a>
+                            <a href="">Smart Door Locks</a>
+                            <a href="">Window and Door Sensors</a>
+                            <a href="">Smart Air Conditioners</a>
+                            <a href="">Home Security Cameras</a>
+                            <a href="">Smart Light Bulbs</a>
+                            <a href="">Sleep Gadgets </a>
+                            <a href="">Smart Smoke Alarms </a>
+                            <a href="">Smart Alarm Clocks</a>
+                            <a href="">Smart Doorbells</a>
+                            <a href="">Smart Home Weather Stations </a>
+                            <a href="">Smart Sockets </a>
+                            <a href="">Smart Safes </a>
+                            <a href="">Smart Kitchen Gadgets </a>
+                            <a href="">Smart Mirrors </a>
+                        </div>
+                    </div>
+                    <li>
+                        <h4>Smart home</h4>
+                    </li>
+                    <li>
+                        <h4>Smart home systems</h4>
+                    </li>
+                    <li>
+                        <h4>collections</h4>
+                    </li>
+                </ul>
+                <div class="main-nav__search">
+                    <input type="text" placeholder="I'm searching for...">
+                    <button></button>
+                </div>
+                <a href="" class="top-nav__cart sm">
+                    <img src="img/cart.svg" alt="">
+                    <span class="top-nav__cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="breadcrumbs">
+        <a href="">Main page</a>
+        <a href="">All categories</a>
+        <a href="">Smart Home</a>
+    </section>
+    <section class="category-header search">
+        <h2 class="search__title">You've Searched for: " "</h2>
+       <div class="search__input">
+           <input type="text" placeholder="Search for: Action camera, Smart Gadgets">
+       </div>
+    </section>
+    <section class="category-block">
+        <div class="products">
+            <div class="wrap">
+                <div class="product">
+                    <img src="img/prod-img.png" alt="">
+                    <div class="product__desc">
+                        <div class="product__func">
+                            <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                            <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                            <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                        </div>
+                        <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                        <div class="product__price">$299.00 <span>usd</span></div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/prod-img.png" alt="">
+                    <div class="product__desc">
+                        <div class="product__func">
+                            <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                            <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                            <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                        </div>
+                        <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                        <div class="product__price">$299.00 <span>usd</span></div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/prod-img.png" alt="">
+                    <div class="product__desc">
+                        <div class="product__func">
+                            <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                            <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                            <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                        </div>
+                        <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                        <div class="product__price">$299.00 <span>usd</span></div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/prod-img.png" alt="">
+                    <div class="product__desc">
+                        <div class="product__func">
+                            <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                            <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                            <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                        </div>
+                        <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                        <div class="product__price">$299.00 <span>usd</span></div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/prod-img.png" alt="">
+                    <div class="product__desc">
+                        <div class="product__func">
+                            <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                            <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                            <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                        </div>
+                        <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                        <div class="product__price">$299.00 <span>usd</span></div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/prod-img.png" alt="">
+                    <div class="product__desc">
+                        <div class="product__func">
+                            <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                            <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                            <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                        </div>
+                        <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                        <div class="product__price">$299.00 <span>usd</span></div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/prod-img.png" alt="">
+                    <div class="product__desc">
+                        <div class="product__func">
+                            <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                            <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                            <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                        </div>
+                        <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                        <div class="product__price">$299.00 <span>usd</span></div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/prod-img.png" alt="">
+                    <div class="product__desc">
+                        <div class="product__func">
+                            <a href="" class="func-ico func-ico--red"><i class="fa fa-play"></i></a>
+                            <a href="" class="func-ico func-ico--blue"><i class="fa fa-comment-alt"></i></a>
+                            <a href="" class="func-ico func-ico--grey"><i class="fa fa-plus"></i></a>
+                        </div>
+                        <div class="product__title">Yevo X Humanium Metal Earbuds</div>
+                        <div class="product__price">$299.00 <span>usd</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button-block lg">
+            <button class="load-more">Load more</button>
+        </div>
+    </section>
+    <footer>
+        <div class="wrap">
+            <div class="follow-us">
+                <h4>Follow us:</h4>
+                <a href="#"><img src="img/ico-insta.png" alt=""></a>
+                <a href="#"><img src="img/ico-facebook.png" alt=""></a>
+                <a href="#"><img src="img/ico-twitter.png" alt=""></a>
+                <a href="#"><img src="img/ico-linkedin.png" alt=""></a>
+                <a href="#"><img src="img/ico-youtube.png" alt=""></a>
+            </div>
+            <div class="footer-nav">
+                <a href="">About Us</a>
+                <a href="">Our Team</a>
+                <a href="">Our Features</a>
+                <a href="">Become a partner</a>
+                <a href="">Contact Us</a>
+                <a href="">FAQ</a>
+                <a href="">News</a>
+                <a href="">Terms of Use</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Cookie Policy</a>
+            </div>
+            <div>
+                <a href="" class="button button-green">Join Us</a>
+
+                <div class="lang-bar lang-bar--footer-nav">
+                    <div class="lang-bar__lang-selected" data-toggle="dropdown">Eng </div>
+                    <ul class="dropdown-menu lang-bar__lang-dropdown">
+                        <li>Eng</li>
+                        <li>Ru</li>
+                        <li>Es</li>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <a href="">info@4prototypes.com</a>
+            </div>
+        </div>
+        <div class="wrap">
+            <p>Copyright © 2018 4prototypes, Inc.</p>
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

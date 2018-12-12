@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap-fix.css">
+    <link rel="stylesheet" href="./css/category.css">
+    <link rel="stylesheet" href="./css/animate.css">
+</head>
+
+<body>
+    <!-- header--onscroll  header--fixed-->
+    <header class="header--fixed" id="header">
+        <div class="top-nav animated slideInDown">
+            <div class="top-nav__nav-links">
+                <a href="">How it works?</a>
+                <a href="">About us</a>
+                <a href="">News</a>
+            </div>
+            <div class="top-nav__logo"><a href="/"><img src="./img/logo.png" alt=""></a></div>
+            <div class="top-nav__nav-categories">
+                <ul class="cat__lvl1">
+                    <li onClick="subCatDropDown(this)"><span>Browse</span>
+                        <ul class="cat__lvl2 subcat">
+                            <li class="has-sub">Categories
+                                <ul class="cat__lvl3 subcat">
+                                    <li class="has-sub">Smart Home Automation Hubs
+                                        <ul class="cat__lvl4 subcat">
+                                            <li>Smart Home Automation Hubs</li>
+                                            <li>Smart Door Locks</li>
+                                            <li>Window and Door Sensors</li>
+                                            <li>Smart Air Conditioners</li>
+                                        </ul>
+                                    </li>
+                                    <li>Smart Door Locks</li>
+                                    <li>Window and Door Sensors</li>
+                                    <li>Smart Air Conditioners</li>
+                                    <li>Home Security Cameras</li>
+                                    <li>Smart Light Bulbs</li>
+                                    <li>Sleep Gadgets </li>
+                                </ul>
+                            </li>
+                            <li>Smart Home</li>
+                            <li>Smart Home Systems</li>
+                            <li>Collections</li>
+                        </ul>
+
+                    </li>
+                    <li><span>Other</span></li>
+                </ul>
+            </div>
+            <div class="top-nav__search">
+                <div class="main-nav__search">
+                    <input type="text" placeholder="I'm searching for...">
+                    <button></button>
+                </div>
+            </div>
+
+            <div class="top-nav__nav-func">
+                <div class="lang-bar lang-bar--top-nav">
+                    <div class="lang-bar__lang-selected" data-toggle="dropdown">Eng </div>
+                    <ul id="lang-select" class="lang-bar__lang-dropdown dropdown-menu">
+                        <li>Eng</li>
+                        <li>Ru</li>
+                        <li>Es</li>
+                    </ul>
+                </div>
+                <a href="" class="top-nav__help-link">Help</a>
+                <a href="" class="top-nav__cart">
+                    <!-- <img src="img/ico-cart.jpg" alt="" class="cart-white">
+                    <img src="img/ico-cart-dark.png" alt="" class="cart-dark"> -->
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <svg class="cartimg" viewBox="0 0 23 30" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-257.000000, -54.000000)" fill="#000000" fill-rule="nonzero">
+                                <g transform="translate(257.000000, 52.000000)">
+                                    <g>
+                                        <g>
+                                            <path d="M18.5260769,6.3333334 L16.6730769,6.3333334 C16.6730769,5.32000005 16.133,4.45733337 15.0515385,3.74133335 C13.9713846,3.02533334 12.6584615,2.66666667 11.1153846,2.66666667 C9.57230769,2.66666667 8.25938462,3.02533334 7.17923077,3.74133335 C6.09776923,4.45733337 5.55769231,5.32133338 5.55769231,6.3333334 L3.70469231,6.3333334 C2.68207692,6.3333334 1.80853846,6.69200007 1.08538462,7.40800009 C0.362230769,8.1240001 0,8.98666678 0,10.0000001 L0,28.3333338 C0,29.3466672 0.362230769,30.2093338 1.08538462,30.9253339 C1.78015657,31.629775 2.72502383,32.0174414 3.70469231,32.0000005 L18.5260769,32.0000005 C19.5486923,32.0000005 20.4222308,31.6413339 21.1453846,30.9253339 C21.8685385,30.2093338 22.2307692,29.3453338 22.2307692,28.3333338 L22.2307692,10.0000001 C22.2307692,8.98666678 21.8685385,8.1240001 21.1453846,7.40800009 C20.4506127,6.70355889 19.5057454,6.31589258 18.5260769,6.3333334 Z M11.1153843,4.5 C12.1379997,4.5 13.0115381,4.648 13.7346919,4.944 C14.4591535,5.24 14.8200765,5.704 14.8200765,6.33333333 L7.41069207,6.33333333 C7.41069207,5.70266667 7.77161514,5.24 8.49607666,4.944 C9.21923049,4.648 10.0914612,4.5 11.1153843,4.5 Z M20.3777696,28.3333333 C20.3777696,28.8293333 20.1946927,29.26 19.8285388,29.6226667 C19.462385,29.9853333 19.0269234,30.1666667 18.5260773,30.1666667 L3.70469241,30.1666667 C3.20384625,30.1666667 2.76969239,29.9853333 2.40223085,29.6226667 C2.04918901,29.2909683 1.84976264,28.8228097 1.85300007,28.3333333 L1.85296126,26.5 L20.3777696,26.5 L20.3777696,28.3333333 Z M20.3777698,24.6666667 L1.85300007,24.6666667 L1.85300007,10 C1.85300007,9.504 2.036077,9.07333333 2.40223086,8.71066667 C2.76838471,8.348 3.20384626,8.16666667 3.70469243,8.16666667 L5.55769248,8.16666667 L5.55769248,13.6666667 L7.41069252,13.6666667 L7.41069252,8.16666667 L14.8200773,8.16666667 L14.8200773,13.6666667 L16.6730774,13.6666667 L16.6730774,8.16666667 L18.5260774,8.16666667 C19.0269236,8.16666667 19.4610775,8.348 19.828539,8.71066667 C20.1946929,9.07333333 20.3777698,9.504 20.3777698,10 L20.3777698,24.6666667 Z">
+
+                                            </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <span class="top-nav__cart-count">0</span>
+                </a>
+                <a href="" class="top-nav__login">Log in</a>
+                <a href="" class="top-nav__signup">Sign up</a>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="wrap">
+                <a href="/" class="main-nav__logo animated rotateIn"><img src="img/logo.png" alt=""></a>
+                <ul class="main-nav__menu dropdown">
+                    <li id="category" data-toggle="dropdown">
+                        <h4>Categories</h4>
+                    </li>
+                    <div class="main-nav__sub-menu dropdown-menu" aria-labelledby="category">
+                        <div class="wrap">
+                            <a href="">Smart Home Automation Hubs</a>
+                            <a href="">Smart Door Locks</a>
+                            <a href="">Window and Door Sensors</a>
+                            <a href="">Smart Air Conditioners</a>
+                            <a href="">Home Security Cameras</a>
+                            <a href="">Smart Light Bulbs</a>
+                            <a href="">Sleep Gadgets </a>
+                            <a href="">Smart Smoke Alarms </a>
+                            <a href="">Smart Alarm Clocks</a>
+                            <a href="">Smart Doorbells</a>
+                            <a href="">Smart Home Weather Stations </a>
+                            <a href="">Smart Sockets </a>
+                            <a href="">Smart Safes </a>
+                            <a href="">Smart Kitchen Gadgets </a>
+                            <a href="">Smart Mirrors </a>
+                        </div>
+                    </div>
+                    <li>
+                        <h4>Smart home</h4>
+                    </li>
+                    <li>
+                        <h4>Smart home systems</h4>
+                    </li>
+                    <li>
+                        <h4>collections</h4>
+                    </li>
+                </ul>
+                <div class="main-nav__search">
+                    <input type="text" placeholder="I'm searching for...">
+                    <button></button>
+                </div>
+                <a href="" class="top-nav__cart sm">
+                    <img src="img/cart.svg" alt="">
+                    <span class="top-nav__cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="breadcrumbs">
+        <a href="">Main page</a>
+        <a href="">Contact us</a>
+    </section>
+    <section class="aboutus-header">
+        <div class="aboutus-header__logo">
+            <img src="./img/logo.svg" alt="">
+            <h2>About Us</h2>
+        </div>
+    </section>
+    <section class="issue">
+        <div class="wrap">
+            <p>4Prototypes is a project where advanced technologies meet real people. As hi-tech enthusiasts we bring
+                you
+                all the cutting edge products with an easy and fun attitude. No need to struggle through endless data
+                sheets, just customize your newsfeed to your interests and get a top-notch of the topics.
+            </p>
+            <h2>The issue we cover include:</h2>
+            <ul class="issue__include">
+                <li>
+                    <img src="./img/about_us_svg/smart_home_systems_80x80.svg" alt="">
+                    <p>Smart Home Devices</p>
+                </li>
+                <li>
+                    <img src="./img/about_us_svg/robots_80x80.svg" alt="">
+                    <p>Robotics</p>
+                </li>
+                <li>
+                    <img src="./img/about_us_svg/drones_80x80.svg" alt="">
+                    <p>Unmanned aerial <br> vehicles</p>
+                </li>
+                <li>
+                    <img src="./img/about_us_svg/personal_transport_80x80.svg" alt="">
+                    <p>Smart Transport</p>
+                </li>
+                <li>
+                    <img src="./img/about_us_svg/phones_accessories_80x80.svg" alt="">
+                    <p>Phones & Accessories</p>
+                </li>
+                <li>
+                    <img src="./img/about_us_svg/health_fitness_gadgets_80x80.svg" alt="">
+                    <p>Health &amp; Fitness Gadgets</p>
+                </li>
+            </ul>
+            <p class="issue__lots">and lots of others</p>
+        </div>
+    </section>
+    <section class="mission">
+        <div class="mission__header">
+            <div class="wrap">
+                <h2>OUR MISSION</h2>
+                <div class="mission__line"></div>
+                <p>Our mission is to inspire and gather around people sharing passion to improvement, so 4Prototype is
+                    also
+                    a society based on your personal experience. Share your reviews in an open-minded environment and
+                    get
+                    level-ups for your expertise!</p>
+            </div>
+        </div>
+        <div class="wrap mission__listblock">
+            <p class="mission__list">And last but not least 4Prototype is a convenient marketplace where top
+                manufacturers
+                will bring you directly their best products.</p>
+            <p class="mission__list">We will provide you with all the tools and information to ensure the smart choice
+                of your smart devices.</p>
+        </div>
+    </section>
+    <section class="ourteam">
+        <div class="wrap">
+            <h2>Our Team</h2>
+            <div class="ourteam__cards">
+                <div class="ourteam__card">
+                    <img class="ourteam__avatar" src="./img/team-persone.png" alt="">
+                    <div class="ourteam__name">Alex Rozhanskiy</div>
+                    <div class="ourteam__position">Founder & CEO <br> Kyiv, Ukraine</div>
+                    <div class="ourteam__soc">
+                        <a href="#"><img src="./img/ico-facebook.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-twitter.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-linkedin.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="ourteam__card">
+                    <img class="ourteam__avatar" src="./img/team-persone.png" alt="">
+                    <div class="ourteam__name">Alex Rozhanskiy</div>
+                    <div class="ourteam__position">Founder & CEO <br> Kyiv, Ukraine</div>
+                    <div class="ourteam__soc">
+                        <a href="#"><img src="./img/ico-facebook.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-twitter.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-linkedin.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="ourteam__card">
+                    <img class="ourteam__avatar" src="./img/team-persone.png" alt="">
+                    <div class="ourteam__name">Alex Rozhanskiy</div>
+                    <div class="ourteam__position">Founder & CEO <br> Kyiv, Ukraine</div>
+                    <div class="ourteam__soc">
+                        <a href="#"><img src="./img/ico-facebook.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-twitter.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-linkedin.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="ourteam__card">
+                    <img class="ourteam__avatar" src="./img/team-persone.png" alt="">
+                    <div class="ourteam__name">Alex Rozhanskiy</div>
+                    <div class="ourteam__position">Founder & CEO <br> Kyiv, Ukraine</div>
+                    <div class="ourteam__soc">
+                        <a href="#"><img src="./img/ico-facebook.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-twitter.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-linkedin.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="ourteam__card">
+                    <img class="ourteam__avatar" src="./img/team-persone.png" alt="">
+                    <div class="ourteam__name">Alex Rozhanskiy</div>
+                    <div class="ourteam__position">Founder & CEO <br> Kyiv, Ukraine</div>
+                    <div class="ourteam__soc">
+                        <a href="#"><img src="./img/ico-facebook.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-twitter.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-linkedin.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="ourteam__card">
+                    <img class="ourteam__avatar" src="./img/team-persone.png" alt="">
+                    <div class="ourteam__name">Alex Rozhanskiy</div>
+                    <div class="ourteam__position">Founder & CEO <br> Kyiv, Ukraine</div>
+                    <div class="ourteam__soc">
+                        <a href="#"><img src="./img/ico-facebook.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-twitter.png" alt=""></a>
+                        <a href="#"><img src="./img/ico-linkedin.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="ourteam__text">So are you geek enough to go up the community ladder, searching for a smart solution
+            for you life or just
+            want to make the first step in the world of high technologies - 4Prototype is a right place for you!</p>
+    </section>
+    <footer>
+        <div class="wrap">
+            <div class="follow-us">
+                <h4>Follow us:</h4>
+                <a href="#"><img src="img/ico-insta.png" alt=""></a>
+                <a href="#"><img src="img/ico-facebook.png" alt=""></a>
+                <a href="#"><img src="img/ico-twitter.png" alt=""></a>
+                <a href="#"><img src="img/ico-linkedin.png" alt=""></a>
+                <a href="#"><img src="img/ico-youtube.png" alt=""></a>
+            </div>
+            <div class="footer-nav">
+                <a href="">About Us</a>
+                <a href="">Our Team</a>
+                <a href="">Our Features</a>
+                <a href="">Become a partner</a>
+                <a href="">Contact Us</a>
+                <a href="">FAQ</a>
+                <a href="">News</a>
+                <a href="">Terms of Use</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Cookie Policy</a>
+            </div>
+            <div>
+                <a href="" class="button button-green">Join Us</a>
+
+                <div class="lang-bar lang-bar--footer-nav">
+                    <div class="lang-bar__lang-selected" data-toggle="dropdown">Eng </div>
+                    <ul class="dropdown-menu lang-bar__lang-dropdown">
+                        <li>Eng</li>
+                        <li>Ru</li>
+                        <li>Es</li>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <a href="">info@4prototypes.com</a>
+            </div>
+        </div>
+        <div class="wrap" id="navi-wrap">
+            <p>Copyright © 2018 4prototypes, Inc.</p>
+        </div>
+    </footer>
+    <div class="footer-mobile">
+        <ul class="footer-mobile__menu">
+            <li class="footer-mobile__menu--active" onClick="toggleMobCat('mob-cat')"><i class="fas fa-bars"></i><br>Catalog</li>
+            <li><a href="#"><i class="fas fa-search"></i><br>Search</a></li>
+            <li><a href="/"><img src="img/logo.png" alt=""><br>Main</a></li>
+            <li><a href="#"><i class="far fa-user"></i><br>Profile</a></li>
+            <li onClick="toggleMobCat('mob-other')"><i class="fas fa-ellipsis-h"></i><br>Other</li>
+        </ul>
+        <ul class="mobile-other dropdown--hide" id="mob-other">
+            <li><a href="">How it Works?</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Become a Partner</a></li>
+            <li><a href="">Our Team</a></li>
+            <li class="mobile-other__seperator"></li>
+            <li><a href="">Terms of Service</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Cooky Policy</a></li>
+        </ul>
+        <ul class="mobile-catalog dropdown--hide" id="mob-cat">
+            <li click="toggleMobCat()"><a href=""><img src="img/svg-categories/smart_home_80x80.svg" alt=""><br>Smart
+                    Home</a>
+            </li>
+            <li><a href=""><img src="img/svg-categories/smart_home_systems_80x80.svg" alt=""><br>Smart Home Systems</a></li>
+            <li><a href=""><img src="img/svg-categories/robots_80x80.svg" alt=""><br>Robots</a></li>
+            <li><a href=""><img src="img/svg-categories/personal_transport_80x80.svg" alt=""><br>Personal transport</a></li>
+            <li><a href=""><img src="img/svg-categories/health_fitness_gadgets_80x80.svg" alt=""><br>Health & fitness
+                    gadgets</a></li>
+            <li><a href=""><img src="img/svg-categories/drones_80x80.svg" alt=""><br>Drones</a></li>
+            <li><a href=""><img src="img/svg-categories/phones_accessories_80x80.svg" alt=""><br>Phones & accessories</a></li>
+            <li><a href=""><img src="img/svg-categories/computers_80x80.svg" alt=""><br>Computers</a></li>
+            <li><a href=""><img src="img/svg-categories/audio_devices_80x80.svg" alt=""><br>Audio devices</a></li>
+            <li><a href=""><img src="img/svg-categories/cameras_80x80.svg" alt=""><br>Cameras</a></li>
+            <li><a href=""><img src="img/svg-categories/wearable_devices_80x80.svg" alt=""><br>Wearable devices</a></li>
+            <li><a href=""><img src="img/svg-categories/solar_products_80x80.svg" alt=""><br>Solar products</a></li>
+            <li><a href=""><img src="img/svg-categories/3d_printers_80x80.svg" alt=""><br>3D Printers</a></li>
+            <li><a href=""><img src="img/svg-categories/exoskeleton_prosthetics_80x80.svg" alt=""><br>Exoskeleton &amp;
+                    prosthetics</a></li>
+            <li><a href=""><img src="img/svg-categories/collection_80x80.svg" alt=""><br> Collections</a></li>
+        </ul>
+    </div>
+    <div class="modw hide">
+        <div class="modw__block">
+            <div class="modw__contacts">
+                <div class="modw__title">Describe your issue</div>
+                <form action="" class="modw__form">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="E-mail">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button class="modw__submit" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="modw__thankyou">
+                <div class="modw__title">Thank you!</div>
+                <p class="modw__midtext">Your message has been sent successfully</p>
+                <p class="modw__smalltext">We will contact you as soon as possible</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

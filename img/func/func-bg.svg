@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="31px" viewBox="0 0 76 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>FC2E2398-1C76-4225-8FAE-726D6B19CC13</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 30.9999 0 0 75.9999 0 75.9999 30.9999"></polygon>
+    </defs>
+    <g id="Main-pages---desktop-view" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Open-Product-Page-new---Review-tab" transform="translate(-1106.000000, -2711.000000)">
+            <g id="Group-8" transform="translate(117.000000, 984.000000)">
+                <g id="Slider" transform="translate(4.000000, 1411.000000)">
+                    <g id="New-card-angeled-Copy-23" transform="translate(909.000000, 55.000000)">
+                        <g id="comments" transform="translate(76.000000, 261.000000)">
+                            <g id="Page-1-Copy-2">
+                                <g>
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="Clip-2"></g>
+                                    <path d="M57.6699,11.9399 C52.3599,6.7099 48.4199,-0.0001 38.2999,-0.0001 L37.6999,-0.0001 C27.5799,-0.0001 23.6399,6.7099 18.3299,11.9399 C14.4699,16.7599 6.6099,17.8099 -0.0001,17.9999 L-0.0001,30.9999 L75.9999,30.9999 L75.9999,17.9999 C69.3899,17.8099 61.5299,16.7599 57.6699,11.9399" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,78 +1,76 @@
 @font-face {
-    font-family: 'Open Sans';
-    src: url('../fonts/OpenSans-SemiBold.eot');
-    src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-SemiBold.eot');
+  src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
         url('../fonts/OpenSans-SemiBold.woff') format('woff'),
         url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('../fonts/OpenSans-Regular.eot');
-    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/OpenSans-Regular.woff2') format('woff2'),
         url('../fonts/OpenSans-Regular.woff') format('woff'),
         url('../fonts/OpenSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    src: url('../fonts/OpenSans-Bold.eot');
-    src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/OpenSans-Bold.woff2') format('woff2'),
         url('../fonts/OpenSans-Bold.woff') format('woff'),
         url('../fonts/OpenSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-weight: bold;
+  font-style: normal;
 }
 
-
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Light.eot');
-    src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.eot');
+  src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Roboto-Light.woff2') format('woff2'),
         url('../fonts/Roboto-Light.woff') format('woff'),
         url('../fonts/Roboto-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Regular.eot');
-    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Roboto-Regular.woff2') format('woff2'),
         url('../fonts/Roboto-Regular.woff') format('woff'),
         url('../fonts/Roboto-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Medium.eot');
-    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.eot');
+  src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Roboto-Medium.woff2') format('woff2'),
         url('../fonts/Roboto-Medium.woff') format('woff'),
         url('../fonts/Roboto-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Bold.eot');
-    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Roboto-Bold.woff2') format('woff2'),
         url('../fonts/Roboto-Bold.woff') format('woff'),
         url('../fonts/Roboto-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-weight: bold;
+  font-style: normal;
 }
-
